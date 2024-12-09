@@ -1,0 +1,33 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.container h1 {
+    font-family: "Kanit", sans-serif;
+    font-size: 80px;
+    font-weight: 800;
+}
+
+.container p {
+    font-size: 35px;
+    position: relative;
+    top: -40px;
+    max-width: 70%;
+}
+
+.container button {
+    position: relative;
+    top: -40px;
+    padding: 33px 90px;
+    background-color: blue;
+
+}
+
+.container button:hover {
+    background-color: green;
+
+}
